@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Front-End</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='BlockchainFrontEnd.js') }}"></script>
+</head>
+<body>
+    <h1>Blockchain Front-End</h1>
+
+    <div id="buttonContainer">
+    
+        <button id="mineBlock">Mine Block</button>
+        <button id="getChain">Get Chain</button>
+        <button id="isValid">Is Valid</button>
+        <button id="addTransaction">Add Transaction</button>
+        <button id="connectNode">Connect Node</button>
+        <button id="replaceChain">Replace Chain</button>
+    </div>
+    
+    <div id="output"></div>
+</body>
+</html>
